@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: #e8e9f3;
+}
+body {
+  font-family: 'Bebas Neue', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header__content {
+  line-height: 2;
+  padding: 1.5rem 0;
+}
+
+.header__content h1 span {
+  background-color: red;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+}
+
+.navbar {
+  width: 100vw;
+  padding: 0.5rem 0;
+  background-color: #272635;
+  color: #fff;
+}
+
+.fa-react {
+  color: #61dbfb;
+}
+.fa-angular {
+  color: #a6120d;
+}
+.fa-vuejs {
+  color: #41b883;
+}
+
+.current {
+  color: #b1e5f2;
+  border-bottom: 1px solid #b1e5f2;
+}
+
+.navbar__options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar__item {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.main-content__flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.main-content__card {
+  border-radius: 2rem;
+  border: 1px solid #a6a6a8;
+  padding: 1rem;
+  width: 20rem;
+  margin: 1rem;
+}
+
+.card__title {
+  font-size: 2rem;
+}
+.card__version {
+  font-size: 0.8rem;
+}
+
+.card__description {
+  font-size: 1rem;
+}
+
+.card__button {
+  margin-top: 1rem;
+  display: inline-block;
+  border-radius: 0.8rem;
+  border: 1px solid #272635;
+  padding: 0.8rem;
+  background: rgb(52, 52, 166);
+  color: #fff;
+}
+
+@media (max-width: 720px) {
+  .navbar__options {
+    flex-direction: column;
+  }
+}
